@@ -32,3 +32,6 @@ jobs:
         with:
           name: autowatermlg-mod
           path: build/libs/*.jar
+defaults:
+  run:
+    working-directory: .
