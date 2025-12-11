@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autowatermlg",
+  "version": "${version}",
+  "name": "Auto Water MLG",
+  "description": "Mod yang otomatis melakukan water bucket MLG saat jatuh",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.autowater.AutoWaterMLG"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.8"
+  }
+}
